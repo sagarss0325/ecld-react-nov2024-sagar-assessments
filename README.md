@@ -7,7 +7,7 @@
  
 ### Easy Problems
  
-- exercises/easy/01-profile-card - [Solution](exercises/easy/Task1)
+- exercises/easy/01-profile-card - [Solution](exercises/easy/task1)
 - exercises/easy/02-navbar - [Solution](exercises/easy/Task2)
 - exercises/easy/03-pricing-table - [Solution](exercises/easy/Task3)
 - exercises/easy/04-login-page - [Solution](exercises/easy/Task4)
