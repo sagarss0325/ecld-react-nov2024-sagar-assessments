@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.profile {
+  width: 310px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+
+  margin: 150px;
+  margin-left: 600px;
+  background-color: rgb(200, 198, 198);
+}
+
+.profile-picture {
+  height: 310px;
+  width: 310px;
+  padding: 20px;
+  object-fit: cover;
+  margin-bottom: 6px;
+  border-radius: 50%;
+}
+
+.name {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.job-title {
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.job-description {
+  font-weight: 400;
+  width: 310px;
+  margin-left: 5px;
+}
+
+.button {
+  background-color: #1a1aff;
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+  cursor: pointer;
+}
+
+.buttons-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button:hover {
+  background-color: #0000cc;
+}
