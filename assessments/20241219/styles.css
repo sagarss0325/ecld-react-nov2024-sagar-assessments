@@ -1,0 +1,331 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  width: fit-content;
+  margin: 20px;
+}
+
+.left-section {
+  width: 275px;
+}
+
+.head1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  margin-bottom: 30px;
+}
+
+.register {
+  font-weight: 500;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+
+  margin-left: 40px;
+}
+
+.side-line {
+  display: flex;
+  gap: 10px;
+
+  margin-bottom: 20px;
+}
+
+.line-3 {
+  padding: 8px;
+  border-radius: 8px;
+  width: 230px;
+
+  color: white;
+  background-color: rgb(69, 69, 252);
+}
+
+.content {
+  margin-left: 10px;
+}
+
+.search {
+  width: 500px;
+  border-width: thin;
+  border-style: solid;
+  border-radius: 8px;
+
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+
+  margin-left: 300px;
+  margin-top: -385px;
+}
+
+.head-right {
+  margin-left: 575px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+#checkbox {
+  display: none;
+}
+
+.main-content {
+  background-color: #e6e6e6;
+  height: 750px;
+
+  margin-left: 275px;
+}
+
+.main-headings {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.main-headings h2 {
+  margin-bottom: 10px;
+}
+
+.box {
+  width: 250px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 150px 100px;
+}
+
+.box-1,
+.box-2 {
+  border: 1px black solid;
+  padding-left: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 5px;
+}
+
+.box-1 {
+  color: blue;
+  background-color: #e6e6e6;
+  border-color: rgb(78, 78, 255);
+}
+
+.box-2 {
+  background-color: white;
+  opacity: 0.4;
+}
+
+.input-table {
+  height: 600px;
+  margin-top: -20px;
+  margin-left: 20px;
+  margin-right: 10px;
+  background-color: white;
+}
+
+.search-event {
+  width: 375px;
+  border-width: thin;
+  border-style: solid;
+  border-radius: 8px;
+
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+input::placeholder {
+  font-weight: 600;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 16px 24px;
+}
+
+.event-row {
+  width: 575px;
+}
+
+table {
+  width: 1125px;
+  margin-left: 20px;
+  border-collapse: collapse;
+}
+
+thead tr th {
+  border: 2px rgb(133, 132, 132) solid;
+}
+
+tbody tr th {
+  border: 1px rgb(157, 156, 156) solid;
+}
+
+tbody td {
+  border: 1px rgb(133, 132, 132) solid;
+}
+
+.green-para {
+  color: green;
+  border: 1px solid;
+  border-color: green;
+  width: 85px;
+  border-radius: 14px;
+  padding: 5px;
+}
+
+.icons {
+  display: none;
+}
+
+@media (max-width: 1100px) {
+  .container {
+    width: 1000px;
+  }
+
+  .head-right {
+    margin-left: 100px;
+  }
+
+  .icons {
+    display: none;
+  }
+
+  table {
+    width: 650px;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    width: 800px;
+  }
+
+  .icons {
+    display: none;
+  }
+
+  .event-row {
+    width: 150px;
+  }
+
+  table {
+    width: 450px;
+  }
+
+  .report-row {
+    width: 150px;
+  }
+
+  .status-row {
+    width: 25px;
+  }
+
+  .search-event {
+    width: 450px;
+  }
+
+  .head-right {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 500px;
+  }
+
+  .sidebar {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    padding: 1rem 0;
+  }
+
+  .sideline {
+    display: block;
+    text-align: left;
+    font-size: 2.1rem;
+    margin: 1.5rem 0;
+    padding-left: 2rem;
+    transition: all 2s;
+  }
+
+  .content {
+    margin-top: 400px;
+    margin-left: -200px;
+  }
+
+  .main-content {
+    width: 500px;
+    margin-left: 225px;
+  }
+
+  .search {
+    width: 500px;
+    margin-left: -75px;
+  }
+
+  .bars {
+    opacity: 0;
+  }
+
+  .GRC {
+    margin-left: 225px;
+  }
+
+  .icons {
+    display: flex;
+  }
+
+  #closeIcon {
+    display: none;
+  }
+
+  #checkbox:checked ~ .icons #menuIcon {
+    display: none;
+  }
+
+  #checkbox:checked ~ .icons #closeIcon {
+    display: block;
+    transition: all 2s;
+  }
+
+  #checkbox:checked ~ .sidebar {
+    display: block;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #menuIcon {
+    margin-top: -60px;
+  }
+
+  #closeIcon {
+    margin-top: -60px;
+  }
+}
